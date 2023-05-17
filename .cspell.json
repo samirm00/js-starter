@@ -1,6 +1,13 @@
 {
   "language": "en",
-  "words": [],
+  "words": [
+    "Nepo",
+    "Coverate",
+    "wireframe",
+    "lcov",
+    "Pellegrini",
+    "stackoverflow"
+  ],
   "ignorePaths": [
     "node_modules/**",
     "package.json",

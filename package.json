@@ -1,5 +1,5 @@
 {
-  "name": "practice-code-review",
+  "name": "js-starter",
   "version": "1.0.0",
   "scripts": {
     "format": "prettier --write ./",
@@ -7,20 +7,19 @@
     "lint:js": "eslint --max-warnings=0 --ext=.js --format=codeframe",
     "lint:ls": "ls-lint",
     "lint:md": "markdownlint --ignore node_modules --ignore docs --config ./.markdownlint.jsonc --fix ./ ",
-    "test": "node --experimental-vm-modules node_modules/.bin/jest --passWithNoTests --coverage ",
     "spell-check": "cspell  './**'"
   },
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hackyourfuturebelgium/practice-code-review.git"
+    "url": "https://github.com/samirm00/js-starter.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hackyourfuturebelgium/practice-code-review/issues"
+    "url": "https://github.com/samirm00/js-starter/issues"
   },
-  "homepage": "https://github.com/hackyourfuturebelgium/practice-code-review",
+  "homepage": "https://github.com/samirm00/js-starter",
   "devDependencies": {
     "@ls-lint/ls-lint": "^1.10.0",
     "cspell": "^5.6.6",
