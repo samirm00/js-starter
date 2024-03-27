@@ -1,7 +1,7 @@
 {
   "study": {
     "type": "module",
-    "tests": [".spec.js"],
+    "tests": [".spec.js", "test.js"],
     "run": true,
     "debug": true,
     "environment": true,

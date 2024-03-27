@@ -4,6 +4,7 @@
     "sourceType": "module"
   },
   "env": {
+    "jest": true,
     "browser": true
   },
   "extends": [
@@ -31,7 +32,7 @@
     "no-useless-rename": 1,
     "no-label-var": 1,
     "no-shadow": 1,
-    "no-undefined": 1,
+    "no-undefined": 0,
     "arrow-parens": 1,
     "arrow-body-style": 0,
     "no-confusing-arrow": 1,
